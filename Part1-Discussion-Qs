@@ -1,0 +1,72 @@
+Runtime
+
+1.The workload would be the length of the list of integers that the function takes
+as it's parameter.
+
+
+2.
+O(1)
+O(logn)
+O(n)
+O(nlogn)
+O(n^2)
+O(2^n)
+
+
+Stacks and Queues
+1.
+    1.Stack
+    2.Queue
+    3.A linked list queue? Because of Order of Operations, the equation would need to be looped through 
+        multiple times until there is one final number. First time to evaluate what is in the parentheses, 
+        second to add/subtract the remaining numbers. Third time around, only one number would remain.
+
+2. 
+    1. One of those tennis ball shooters where you put the balls in to the machine and it shoots them
+        out one by one.
+    2. What if I was in a puppy playroom, with puppies in a line. And I sat at one end of the line cuddling 
+        one puppy at a time. And as I cuddle puppies on one end, more puppies would be added to the other end 
+        of the line. Infinite puppies.
+
+3. 
+    1. People getting onto and then off a bus (if everyone was getting on and off at the same time)
+    2. If puppies were piled on top of each other, and I took puppies off the top of the pile and put new 
+        puppies onto the top of the pile.
+
+
+
+Linked Lists
+1.
+    a. The Apple, berry, and cherry boxes, and for each their pointer to the next node, are the nodes. 
+        ex: Apple box + next box (which is a pointer to the next node) = 1 node
+    b. The data for the nodes is 'Apple', 'Berry', and 'Cherry'
+    c. The head of the linked list is the first node (in this case 'Apple'), 
+        stored on the linked list class as the attribute 'head'
+    d. The tail of the linked list is the last node (in this case 'Cherry'), 
+        whose 'next' box is a pointer to 'None'
+
+2. A doubly linked list is a linked list in which we track both the previous and next node for each node.
+    A singly linked list only tracks the next node for each node.
+
+
+3. It is faster to append to a linked list if we keep track of the tail because otherwise every time
+    we want to append to the list we would have to track down the end of the list by starting at the 
+    head node and moving through the list by checking 'next' for each consecutive node, until we find 
+    a node with 'next' equal to 'None'
+
+
+Trees
+1. food --> Italian --> Indian --> Mexican --> lasagna --> pizza --> tikka masala
+     --> saag  --> burrito 
+
+2. food --> Mexican --> enchiladas --> tacos --> burrito --> Indian --> saag --> 
+    tikka masala --> Italian --> pizza --> Sicilian --> New York-style --> Chicago-style
+
+3. A binary search tree is a 'divide and conquer' search that is very fast. It's different 
+    in how it arranges it's nodes - on the left of a node is another node that is 'less' than it, and on 
+    the right of the node is a node that is 'greater' than it. 
+        Lets says we have 3 nodes 'a', 'b', and 'c'. If 'b' was the parent node with 'a' and 'c' as it's 
+        children, 'a' would be the left child and 'c' would be the right child. 
+
+
+
